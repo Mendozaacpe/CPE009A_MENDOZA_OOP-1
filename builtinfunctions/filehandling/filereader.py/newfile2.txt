@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar  5 10:18:14 2026
+
+@author: TIPQC
+"""
+
+def file():
+    file.read = open("newfile1.txt" , 'w')
+    data = file.read()
+    print(data)
+    file.close()
+    
